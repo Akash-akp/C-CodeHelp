@@ -7,8 +7,8 @@ int main(){
     int n;
     cin>>n; // n is decimal number
     int ans = 0; // in ans we store the binary number
-    int i = 0;  // i used to help to fill backward as it defne the power of 10
-    string strans = "";
+    int i = 0;  // i used to help to fill backward as it is defined as the power of 10
+    string strans = ""; // strans store ans in string
     while(n!=0){
         int rem = n%2; // this will give the reminder that we get after dividing decimal number by 2
         n = n/2; 
